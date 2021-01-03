@@ -1257,6 +1257,10 @@ img {
     padding: 0px 20px 0 50px;
   }
 
+  .inner-conclusion__item a {
+    font-size: 1.2rem;
+  }
+
   .inner-conclusion__num {
     font-size: 5rem;
     top: -5px;
