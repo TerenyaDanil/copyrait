@@ -827,6 +827,7 @@ img {
 .inner-conclusion__item {
   font-size: 1.8rem;
   position: relative;
+  line-height: 1.3;
   margin: 0px 0px 30px 0px;
 }
 
@@ -905,6 +906,7 @@ img {
   border: 1px solid #ffa731;
   padding: 46px 50px;
   margin: 0px 0px 50px 0px;
+  line-height: 1.3;
 }
 
 .form__inner {
@@ -985,6 +987,7 @@ img {
   position: relative;
   font-size: 1.8rem;
   margin: 0px 0px 30px 0px;
+  line-height: 1.3;
 }
 
 .inner-after__item span {
@@ -1064,7 +1067,7 @@ img {
 
 @media (max-width: 767.98px) {
   .title {
-    font-size: 3rem;
+    font-size: 2.8rem;
     text-align: center;
   }
 
@@ -1133,6 +1136,10 @@ img {
 
   .content-video__item {
     padding: 16px 15px;
+  }
+
+  .video__dop {
+    opacity: 0.6;
   }
 
   .video__dop img {
@@ -1241,6 +1248,10 @@ img {
     max-width: 150px;
   }
 
+  .inner-conclusion__btn {
+    text-align: center;
+  }
+
   .inner-conclusion__item {
     font-size: 1.6rem;
     padding: 0px 20px 0 50px;
@@ -1314,6 +1325,14 @@ img {
   .form__disk {
     text-align: center;
     font-size: 1.2rem;
+  }
+
+  .form__disk:before {
+    left: -10px;
+  }
+
+  .after__container {
+    padding: 0px 0px 90px;
   }
 
   .inner-after__item {
